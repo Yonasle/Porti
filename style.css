@@ -77,6 +77,28 @@ p {
   font-weight: 500;
 }
 
+.st_co_cstm {
+  position: absolute;
+  width: 288px;
+  height: 50px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #1a2236;
+  top: 3215px;
+  left: 16px;
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.st_co_cstm img {
+  margin-left: 20px;
+}
+
 .img-colors {
   position: absolute;
   width: 320px;
@@ -99,6 +121,7 @@ p {
   left: 0px;
   top: 754px;
 }
+
 .postTwo {
   position: absolute;
   width: 320px;
@@ -106,6 +129,7 @@ p {
   left: 0px;
   top: 1119px;
 }
+
 .postThree {
   position: absolute;
   width: 320px;
@@ -113,6 +137,7 @@ p {
   left: 0px;
   top: 1484px;
 }
+
 .postFour {
   position: absolute;
   width: 320px;
@@ -120,6 +145,7 @@ p {
   left: 0px;
   top: 1850px;
 }
+
 .postFive {
   position: absolute;
   width: 320px;
@@ -127,6 +153,7 @@ p {
   left: 0px;
   top: 2216px;
 }
+
 .postSix {
   position: absolute;
   width: 320px;
@@ -189,11 +216,12 @@ p {
   background-color: #98dede;
   text-align: center;
 }
+
 .about_h {
   position: absolute;
   width: 134px;
   height: 50px;
-  top: 2990px;
+  top: 3000px;
   left: 16px;
   font-family: "Playfair Display";
   font-style: normal;
@@ -202,10 +230,11 @@ p {
   line-height: 100%;
   color: #1a2236;
 }
+
 .about_p {
   position: absolute;
   font-family: "Poppins";
-  top: 3050px;
+  top: 3067px;
   left: 16px;
   width: 288px;
   height: 126px;
@@ -215,6 +244,7 @@ p {
   line-height: 21px;
   color: #1a2236;
 }
+
 .get_mc {
   position: absolute;
   width: 288px;
@@ -225,6 +255,7 @@ p {
   text-align: center;
   background: #1a2236;
 }
+
 .arrow {
   position: absolute;
   width: 13.32px;
@@ -232,6 +263,7 @@ p {
   left: 206px;
   top: 3183px;
 }
+
 .rectangle {
   box-sizing: border-box;
   position: absolute;
@@ -240,6 +272,7 @@ p {
   left: 201px;
   top: 3189px;
 }
+
 .language {
   position: absolute;
   width: 289px;
@@ -249,6 +282,7 @@ p {
 
   background: #1c528a;
 }
+
 .lang {
   position: absolute;
   width: 116px;
@@ -264,6 +298,7 @@ p {
 
   color: white;
 }
+
 .lang_list {
   position: absolute;
   width: 178px;
@@ -279,6 +314,7 @@ p {
   letter-spacing: -0.0525em;
   color: #ffffff;
 }
+
 .hash {
   position: absolute;
   width: 102px;
@@ -288,6 +324,7 @@ p {
 
   color: #547da7;
 }
+
 .framework {
   position: absolute;
   width: 289px;
@@ -297,6 +334,7 @@ p {
 
   background: #e2505c;
 }
+
 .frame {
   position: absolute;
   width: 132px;
@@ -313,6 +351,7 @@ p {
 
   color: #ffffff;
 }
+
 .frame_list {
   position: absolute;
   width: 118px;
@@ -328,4 +367,102 @@ p {
   letter-spacing: -0.0525em;
 
   color: #ffffff;
+}
+
+#cards {
+  position: absolute;
+  top: 3301px;
+  color: white;
+  width: 320px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.card1 {
+  background-color: #1C528A;
+  height: 239px;
+  margin: 0 16px;
+  padding-top: 50px;
+  padding-left: 50px;
+  background-image: url(/asset/hash.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.card2 {
+  background-color: #E2505C;
+  height: 239px;
+  margin: 16px;
+  padding-top: 50px;
+  padding-left: 50px;
+  background-image: url(/asset/bg-framework.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.card3 {
+  background-color: #FEBF52;
+  height: 239px;
+  margin: 0 16px;
+  padding-top: 50px;
+  padding-left: 50px;
+  background-image: url(/asset/bg-skills.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.card1 h2,
+.card2 h2,
+.card3 h2 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 21px;
+}
+
+.card1 ul,
+.card2 ul,
+.card3 ul {
+  padding-inline-start: 20px;
+  font-size: 18px;
+}
+
+li {
+  letter-spacing: -0.85px;
+}
+
+#last-part {
+  position: absolute;
+  top: 4235px;
+  width: 320px;
+  height: 813px;
+  background-color: #F9F9FA;
+  background-image: url(/asset/lefty.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-top: 106px;
+
+}
+.get-started h2 {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 50px;
+  color: #1a2236;
+  margin-left: 16px;
+}
+article {
+  margin: 20px 14px 32px 18px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  letter-spacing: -0.01em;
+
+}
+input {
+  height: 52px;
+  width: 288px;
+  box-sizing: border-box;
+  margin-left: 18px;
+  margin-bottom: 8px;
 }
