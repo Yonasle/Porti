@@ -17,7 +17,7 @@
 .hamburger-container {
   position: absolute;
   top: 20px;
-  right: 20px;
+  left: 280px;
 }
 
 .hamburger {
